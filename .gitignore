@@ -1,7 +1,17 @@
 # .gitignore
 
+.vscode/
 venv/
 __pycache__/
 *.pyc
-.DS_Store
+
+.ipynb_checkpoints/
+
 .env
+
+data/
+runs/
+*.pt
+
+.DS_Store
+Thumbs.db
